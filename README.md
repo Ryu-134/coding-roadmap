@@ -385,29 +385,29 @@ But don't forget to do coding problems from above while you learn!
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
+    - [x] Implement a vector (mutable array with automatic resizing):
+        - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+        - [x] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns the item at a given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
+        - [xx] size() - number of items
+        - [xx] capacity() - number of items it can hold
+        - [xx] is_empty()
+        - [xx] at(index) - returns the item at a given index, blows up if index out of bounds
+        - [xx] push(item)
+        - [xx] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [xx] prepend(item) - can use insert above at index 0
+        - [xx] pop() - remove from end, return value
+        - [xx] delete(index) - delete item at index, shifting all trailing elements left
+        - [xx] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [xx] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [xx] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if the size is 1/4 of capacity, resize to half
-    - [ ] Time
+    - [xx] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
-    - [ ] Space
+    - [xx] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
@@ -448,24 +448,24 @@ But don't forget to do coding problems from above while you learn!
         - No need to implement
 
 - ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with the array is trivial
+    - [x] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [x] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+    - [x] Will not implement. Implementing with the array is trivial
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+    - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at a position at the tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using a fixed-sized array:
+    - x[x] Implement using a fixed-sized array:
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost:
         - a bad implementation using a linked list where you enqueue at the head and dequeue at the tail would be O(n)
             because you'd need the next to last element, causing a full traversal of each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
