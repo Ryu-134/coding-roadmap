@@ -34,20 +34,20 @@
         - traversals: preorder, inorder, postorder, BFS, DFS
     - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
     - [Hash table](#hash-table)
+    - [Graphs](#graphs)
+        - directed
+        - undirected
+        - adjacency matrix
+        - adjacency list
+        - traversals: BFS, DFS
 - [Algorithm](#algorithms)       
-- [Binary search](#binary-search)
-- [Sorting](#sorting)
-    - selection
-    - insertion
-    - heapsort
-    - quicksort
-    - mergesort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
+    - [Binary search](#binary-search)
+    - [Sorting](#sorting)
+        - selection
+        - insertion
+        - heapsort
+        - quicksort
+        - mergesort
 - [Even More Knowledge](#even-more-knowledge)
     - [Bitwise operations](#bitwise-operations)
     - [Dynamic Programming](#dynamic-programming)
