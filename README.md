@@ -651,7 +651,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] check for bipartite graph
 
 
-## More Knowledge
+## Algorithms
 
 - ### Binary search
     - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
@@ -748,7 +748,7 @@ As a summary, here is a visual representation of [15 sorting algorithms](https:/
 If you need more detail on this subject, see the "Sorting" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
 
 
-## Even More Knowledge
+## More Knowledge
 
 - ### Bitwise operations
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
